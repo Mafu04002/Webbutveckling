@@ -22,3 +22,11 @@ a{
 .jag{
     border-style: solid;
 }
+.container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100px auto 25%;
+}
+.wrapper{
+    
+}
