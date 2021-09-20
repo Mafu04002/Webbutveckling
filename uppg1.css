@@ -1,5 +1,13 @@
 body{
     background-color: blanchedalmond;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100px auto 25%;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
 }
 p, h1{
     color: rgb(23, 3, 70);
@@ -21,4 +29,21 @@ a{
 }
 .jag{
     border-style: solid;
+}
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
 }
