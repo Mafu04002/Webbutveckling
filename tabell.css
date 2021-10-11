@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    width: 1000px;
+    table-layout: fixed;
+}
+th, td{
+    border: 1px solid black;
+    width: auto;
+    height: 35px;
+}
+th:nth-child(1){
+    text-align: left;
+}
+th:nth-child(4), td:nth-child(4){
+    text-align: right;
+}
+td:nth-child(2), td:nth-child(3){
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+th{
+    background-color: lightslategrey;
+}
+tr:nth-child(even){
+    background-color: rgb(71, 204, 71);
+    color: white;
+}
+html{
+    font-family: arial;
+}
+caption{
+    font-size: 30px;
+    caption-side: bottom;
+}

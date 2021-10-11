@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 700px;
+    height: 500px;
+}
+td{
+    border:1px solid black;
+}
+#blå{
+    background-color: rgb(59, 59, 235);
+}
+#röd{
+    background-color: red;
+}
+#gul{
+    background-color: yellow;
+}
+#svart{
+    background-color: black;
+}
+#grön{
+    background-color: lime;
+}
+caption{
+    caption-side:bottom;
+    font-size: 25px;
+    font-family: arial;
+}
